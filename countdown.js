@@ -6,6 +6,8 @@
  * @url https://github.com/larsha/simple-countdown
  */
 function Countdown(data, callback) {
+	'use strict';
+
 	// Private vars
 	var countdown = new Date(parseInt(data.countdown * 1000)).getTime();
 
