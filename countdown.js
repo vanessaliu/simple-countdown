@@ -1,7 +1,7 @@
 /**
  * Simple countdown
- * @param data
- * @param callback
+ * @param {object} data
+ * @param {function} callback
  * @author Fredrik Lack, fredrik@nody.se
  * @url https://github.com/larsha/simple-countdown
  */
