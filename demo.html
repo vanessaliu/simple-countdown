@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>simple-countdown demo</title>
+    <script src="countdown.js"></script>
+</head>
+<body>
+    <span data-countdown-days></span><span data-countdown-hours></span><span data-countdown-minutes></span><span data-countdown-seconds></span>
+    <script>
+        // Inline just for demo purposes
+        Countdown({
+            countdown: 1413399000
+        }, function(timer) {
+            if (timer) {
+                document.querySelector('[data-countdown-days]').textContent = timer.days + ":";
+                document.querySelector('[data-countdown-hours]').textContent = timer.hours + ":";
+                document.querySelector('[data-countdown-minutes]').textContent = timer.minutes + ":";
+                document.querySelector('[data-countdown-seconds]').textContent = timer.seconds;
+            } else {
+                console.log("end!");
+            }
+        });
+    </script>
+</body>
+</html>
