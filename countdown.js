@@ -1,3 +1,10 @@
+/**
+ * Simple countdown
+ * @param data
+ * @param callback
+ * @author Fredrik Lack, fredrik@nody.se
+ * @url https://github.com/larsha/simple-countdown
+ */
 function Countdown(data, callback) {
 	// Private vars
 	var countdown = new Date(parseInt(data.countdown * 1000)).getTime();
