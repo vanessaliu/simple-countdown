@@ -2,7 +2,7 @@ simple-countdown
 ================
 
 ## Usage
-´´´
+```
 Countdown({
 	countdown: 1413567185 // Timestamp
 }, function(timer) {
@@ -12,14 +12,14 @@ Countdown({
 		// Countdown has finished!
 	}
 });
-´´´
+```
 
 ### Callback object "timer"
-´´´
+```
 {
 	days: 01,
 	hours: 03
 	minutes: 10,
 	seconds: 43
 }
-´´´
+```
