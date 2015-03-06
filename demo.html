@@ -9,7 +9,8 @@
     <script>
         // Inline just for demo purposes
         Countdown({
-            countdown: 1413399000
+            // countdown: '2015-08-08 16:30'  //or the one below works as well
+            countdown: "August 08, 2015 16:30:00"
         }, function(timer) {
             if (timer) {
                 document.querySelector('[data-countdown-days]').textContent = timer.days + ":";

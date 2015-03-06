@@ -9,7 +9,7 @@ function Countdown(data, callback) {
 	'use strict';
 
 	// Private vars
-	var countdown = new Date(parseInt(data.countdown * 1000)).getTime();
+	var countdown = new Date(data.countdown).getTime();
 
 	// Start
 	var i = setInterval(function timer() {
